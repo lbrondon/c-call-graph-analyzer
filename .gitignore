@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Credentials and the local repository used only as a reference.
+github_token.txt
+C-Code-Function-Call-Analyzer/
+
+# Generated CSV files are runtime artifacts.
+output/*
+!output/.gitkeep
